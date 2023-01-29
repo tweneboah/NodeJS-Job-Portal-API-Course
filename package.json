@@ -1,0 +1,29 @@
+{
+  "name": "nodejs-job-portal-api-course",
+  "version": "1.0.0",
+  "description": "This repository contains the complete source code for a Node.js job portal API course.",
+  "main": "server.js",
+  "scripts": {
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tweneboah/NodeJS-Job-Portal-API-Course.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tweneboah/NodeJS-Job-Portal-API-Course/issues"
+  },
+  "homepage": "https://github.com/tweneboah/NodeJS-Job-Portal-API-Course#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-async-handler": "^1.2.0",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^6.9.0"
+  }
+}
